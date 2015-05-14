@@ -1,0 +1,396 @@
+body{
+    background-image: url(../images/bg.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+/* Map CSS */
+ 
+/*#canvas_holder{
+position: absolute;
+top: 0px;
+left: 0px;
+width:100%;
+
+}
+ 
+#map_canvas{
+width:100%;
+height:100%;
+position: absolute;
+
+
+}
+ 
+#map
+{
+position: relative;
+width: 100%;
+height:100%;
+}*/
+
+.info
+{
+width: 200px;
+height: auto;
+}
+
+
+.info img
+{
+width: 200px;
+height: 150px;
+}
+
+.info img#button_map
+{
+margin:10px 0 0 90px;
+width: 110px;
+height: 30px;
+}
+
+.containner{
+
+    width:1024px;
+    margin:0 auto;
+    background-color: #ffffff;
+}
+
+.header{
+    width: 1024px;
+    height: 110px;
+    margin:0 auto;
+    //background-image: url(../images/bg.jpg);
+    //border: 1px solid #888888;
+    clear: both;
+
+}
+
+.menu_left{
+    width: 250px;
+    height: 200px;
+    float: left;
+
+}
+
+.slide_right{
+    width: 740px;
+    height: auto;
+    //border: 1px solid #888888;
+    margin-left: 20px;
+    float: left;
+
+}
+
+.content_main{
+    width: 1024px;
+    height: 530px;
+    clear: both;
+    //border: 1px solid #888888;
+
+}
+
+.content_main2{
+    width: 960px;
+    height: auto;
+    border: 1px solid #888888;
+    border-radius: 20px;
+    margin: 30px 30px 30px 30px;
+    padding-bottom: 20px;
+    clear: both;
+
+}
+
+.content_detail{
+    width: 390px;
+    height: auto;
+    margin: 20px 0 20px 20px;
+    //border: 1px solid #888888;
+    float: left;
+}
+
+.content_picture{
+    width: 500px;
+    height: auto;
+    margin: 20px 0 20px 20px;
+    //border: 1px solid #888888;
+
+}
+
+.place_name{
+    width: 360px;
+    height: auto;
+    margin: 10px 10px 10px 30px;
+    //border: 1px solid #888888;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.place_detail{
+    width: 360px;
+    height: auto;
+    margin: 10px 10px 40px 30px;
+    //border: 1px solid #888888;
+    font-style: italic;
+    font-size: large;
+    word-wrap: break-word;
+    text-align: initial;
+}
+
+.place_pic{
+    width: 465px;
+    height: auto;
+    margin: 10px 10px 40px 30px;
+    //border: 1px solid #888888;
+
+}
+
+.footer{
+    width: 1024px;
+    height: 50px;
+    margin:0 auto;
+    //border: 1px solid #888888;
+    //background-image: url(../images/bg.jpg);
+    clear: both;
+}
+
+.clear{
+    clear: both;
+}
+
+.main_left{
+    width: 700px;
+    height: 460px;
+    margin-left: 10px;
+    /*    border: 1px solid #888888;*/
+    float: left;
+}
+
+.main_right{
+    width: 280px;
+    height: auto;
+    border: 1px solid #888888;
+    border-radius: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.topic_left{
+    width: 690px;
+    height: 40px;
+    //border: 1px solid #888888;
+}
+
+.item_left{
+    width: 340px;
+    height: 210px;
+    margin: 5px 7px 5px 0px;
+    float: left;
+    border: 1px solid #888888;
+    border-radius: 20px;
+}
+
+.item{
+    width: 340px;
+    height: 210px;
+    margin: 10px 20px 10px 10px;
+    float: left;
+    border: 1px solid #888888;
+    border-radius: 20px;
+}
+
+
+
+.item_att{
+    width: 760px;
+    height: auto;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    //border: 1px solid #888888;
+    //border-radius: 20px;
+}
+
+.menu_cate{
+    width: 150px;
+    height: auto;
+    //margin: 10px 5px 10px 5px;
+    border: 1px solid #888888;
+    float: left;
+    border-radius: 20px;
+}
+
+.item_menu{
+    width: 150px;
+    height: 300px;
+    margin: 20px 10px 10px 20px;
+    //border: 1px solid #888888;
+    float: left;
+    //border-radius: 20px;
+}
+
+.box_pic{
+    width: 150px;
+    height: 150px;
+
+    //border: 1px solid #888888;
+    margin: 10px 10px 10px 10px;
+    float: left;
+}
+
+.box_name{
+    font-family: Berlin Sans FB;
+    width:145px;
+    height: 145px;
+    margin: 10px 10px 5px 10px;
+    //border: 1px solid #888888;
+    float: left;
+}
+.box_name span{
+    color: #00F;
+    font-size: large;
+}
+
+.box_name p{
+    color: #555555;
+    font-size: medium;
+    //font-style: italic;
+    word-wrap: break-word;
+}
+
+.more{
+    width:118px;
+    height: 26px;
+    margin: 0px 5px 5px 210px;
+    //border: 1px solid #888888;
+}
+
+#dialog{
+    height: 500px;
+    width: 500px;
+}
+
+.text_name
+{
+    text-align: center;
+    margin-top: 50px;
+    margin: 0 auto;
+    width:600px;
+    height:100px;
+    background-image: url(../images/text_header.png);
+}
+
+#name{
+    //margin: 0 auto;
+    padding-top: 30px;
+    font-size: 2em;
+    font-weight: bold;
+}
+.date_event{
+    width: 400px;
+    height: 130px;
+    margin: 10px 20px 10px 45px;
+    float: left;
+    border: 1px solid #888888;
+}
+
+.event_des{
+    font-family: Berlin Sans FB;
+    width: 240px;
+    height: 110px;
+    margin: 10px 20px 10px 35px;
+    float: left;
+    //border: 1px solid #888888;
+    //border-radius: 10px;
+}
+
+.event_des span{
+    color: #00F;
+    font-size: large;
+}
+
+.event_des p{
+    color: #555555;
+    font-size: medium;
+    //font-style: italic;
+    word-wrap: break-word;
+}
+
+.box_date {
+    
+	width: 100px; 
+        height: 110px; 
+        //border: 1px solid #000; 
+        float: left;
+	
+}
+
+.date {
+	display: block;
+	width: 100px;
+	height: 110px;
+	margin: 10px;
+	background: #ccc;
+	text-align: center;
+	font-family: 'Helvetica', sans-serif;
+	position: relative;
+        border: 2px solid #888888;
+}
+
+.date .binds {
+	position: absolute;
+	height: 15px;
+	width: 60px;
+	background: transparent;
+	border: 2px solid #999;
+	border-width: 0 5px;
+	top: -6px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.date .month {
+	background: #0070a3;
+	display: block;
+	padding: 8px 0;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom: 2px solid #333;
+	box-shadow: inset 0 -1px 0 0 #666;
+}
+
+.date .day {
+	display: block;
+	margin: 0;
+	padding: 10px 0;
+	font-size: 48px;
+	box-shadow: 0 0 3px #ccc;
+	position: relative;
+}
+
+.date .day::after {
+	content: '';
+	display: block;
+	height: 100%;
+	width: 96%;
+	position: absolute;
+	top: 3px;
+	left: 2%;
+	z-index: -1;
+	box-shadow: 0 0 3px #ccc;
+}
+
+.date .day::before {
+	content: '';
+	display: block;
+	height: 100%;
+	width: 90%;
+	position: absolute;
+	top: 6px;
+	left: 5%;
+	z-index: -1;
+	box-shadow: 0 0 3px #ccc;
+}
+

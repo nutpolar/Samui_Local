@@ -1,0 +1,68 @@
+body{
+    font: sans-serif;
+    background-image: url(../images/bg.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+.containner{
+    width:1024px;
+    margin:0 auto;
+    background-color: #ffffff;
+}
+
+.header{
+    width: 1024px;
+    height: 100px;
+    margin:0 auto;
+    clear: both;
+    //background-image: url(../images/header_admin.png);
+
+}
+
+.content{
+    font:sans-serif;
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+    /*    border: 1px solid #888888;*/
+} 
+
+.content_place{
+    font:sans-serif;
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+    /*    border: 1px solid #888888;*/
+}
+
+.tHead{
+    color:#FFFFFF;
+    background-color: #2694e8;
+}
+
+.tBody{
+    color:#000000;
+    background-color: #D0D0D0;
+}
+
+.add_attraction{
+    text-align: right;
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+
+.insert_attraction{
+    margin: 5px 5px 5px 5px;
+}
+
+.box_search{
+    width: 545px; 
+    height: auto; 
+    border: 1px solid #D0D0D0;
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+}
+

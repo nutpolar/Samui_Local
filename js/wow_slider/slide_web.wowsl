@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>7.4</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FullScreen>false</FullScreen>
+            <GalleryName>slide_web</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>blur</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>100</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/chrome/</ImageTemplate>
+            <ImageTemplateName>Chrome</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Nut's/Documents/wow slider.html</PublishFileName>
+            <PublishIndex>wow slider.html</PublishIndex>
+            <PublishPath>C:/Users/Nut's/Documents</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>3</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateFont>Tahoma</TemplateFont>
+            <TemplateName>chrome</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Nut's/Desktop/13_พระพุทธโคด-พระใหญ่-สมุย.jpg</url>
+                <title>BIG BUDDHA TEMPLE</title>
+                <filesize>114274</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Nut's/Desktop/200612151437221.jpg</url>
+                <title>NA MUANG WATERFALL</title>
+                <filesize>110264</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Nut's/Desktop/1358100730.jpg</url>
+                <title>HIN TA</title>
+                <filesize>49683</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Nut's/Desktop/Chaweng12.jpg</url>
+                <title>CHAWENG BEACH</title>
+                <filesize>132033</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Nut's/Desktop/IMG_7213_Cover-620x392.jpg</url>
+                <title>LEAM SOR PAGODA</title>
+                <filesize>63569</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
